@@ -60,7 +60,10 @@ It doesn’t create the <img> element or the associated usemap attribute
 
 ## Here’s the kind of code it will output:
 
-    <map name="imageMap"> <area shape="poly" coords="233,36,244,37,241,53,214,79,207,80,219,82,219,83,216,88,202,92,202,94,203,94,213,90,202,99,202,100,231,88,278,94,280,102,257,151,234,163,249,158,253,166,253,167,217,169,218,164,202,160,207,156,194,154,193,153,199,129,194,123,169,123,164,115,169,110,172,113,163,108,167,102,160,104,159,97,161,93,170,95,162,86,165,86,167,85,162,77,165,77,168,83,169,81,167,75,168,75,179,78,176,75,184,80,173,65,179,65,179,64,176,57,188,58,183,53,182,50,186,50,184,43,190,37,197,41,194,46,199,40,204,41,203,45,235,40,235,39,170,102,168,106,172,102" href="***Example polygonal area***.html" alt="Example polygonal area" title="Example polygonal area"/> <area shape="rect" coords="322,40,522,40,522,224,322,224" href="***Example rectangular area***.html" alt="Example rectangular area" title="Example rectangular area"/> </map>
+    <map name="imageMap">
+        <area shape="poly" coords="233,36,244,37,241,53,214,79,207,80,219,82,219,83,216,88,202,92,202,94,203,94,213,90,202,99,202,100,231,88,278,94,280,102,257,151,234,163,249,158,253,166,253,167,217,169,218,164,202,160,207,156,194,154,193,153,199,129,194,123,169,123,164,115,169,110,172,113,163,108,167,102,160,104,159,97,161,93,170,95,162,86,165,86,167,85,162,77,165,77,168,83,169,81,167,75,168,75,179,78,176,75,184,80,173,65,179,65,179,64,176,57,188,58,183,53,182,50,186,50,184,43,190,37,197,41,194,46,199,40,204,41,203,45,235,40,235,39,170,102,168,106,172,102" href="***Example polygonal area***.html" alt="Example polygonal area" title="Example polygonal area"/>
+        <area shape="rect" coords="322,40,522,40,522,224,322,224" href="***Example rectangular area***.html" alt="Example rectangular area" title="Example rectangular area"/>
+    </map>
 
 ## OK. That’s pretty handy. How to I install that script so Photoshop always has it to hand in the “Scripts” menu?
 
