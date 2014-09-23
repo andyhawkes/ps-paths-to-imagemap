@@ -54,9 +54,9 @@ As mentioned above, the polygons will be defined by the path points so you shoul
 
 ## Here’s what it won’t do:
 
-It doesn’t do circular areas (at the moment) - if you define a circular selection and convert it to a path you’ll end up with a polygonal area until I can work out some more complicated Photoshop scripting voodoo.
-
-It doesn’t create the <img> element or the associated usemap attribute
+* It doesn’t do circular areas (at the moment) - if you define a circular selection and convert it to a path you’ll end up with a polygonal area until I can work out some more complicated Photoshop scripting voodoo.
+* It doesn’t create the `<img>` element or the associated usemap attribute.
+* It has no error handling, so things may just break.
 
 ## Here’s the kind of code it will output:
 
@@ -83,4 +83,4 @@ After copying a script to this folder you’ll need to Quit and then Restart Pho
 
 Nope, that’s it. I hope you find the script useful.
 
-It’s licensed under the Creative Commons Attribution 2.5 License so you can use it, expand on it, and generally marvel at it (as long as you publicly acknowledge my brilliance)
+It’s licensed under the Creative Commons Attribution 2.5 License so you can use it, expand on it, and generally marvel at it (as long as you publicly acknowledge my brilliance).
