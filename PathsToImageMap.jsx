@@ -35,6 +35,10 @@ function checkArrayForValue(haystack, needle) {
 function doPathExport(el, fileOutput, filePath) 
 {
 
+	// Set units to PIXELS
+    app.preferences.rulerUnits = Units.PIXELS
+    app.preferences.typeUnits = TypeUnits.PIXELS
+
 	// Get the paths within the current document
 	var paths = el.pathItems;
 
@@ -42,10 +46,10 @@ function doPathExport(el, fileOutput, filePath)
 	fileOutput.writeln('<map name="imageMap">');
 
 	// Loop through all paths
-	for (var pathIndex = paths.length; pathIndex > 0; pathIndex--)
+	for (var pathIndex = 0; pathIndex < paths.length; pathIndex++)
 	{
 		// Get the point coordinates for the current path
-		var currentPath = paths[pathIndex-1];
+		var currentPath = paths[pathIndex];
 		// Make an array to hold points
 		var points = [];
 		// Make arrays to hold point x and y coordintes so we can check if the current path is rectangular
